@@ -22,7 +22,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Configuration
-@EnableConfigurationProperties({DruidDataSourceProperties.class, DruidMonitorProperties.class})
+@EnableConfigurationProperties({DruidDataSourceProperties.class})
 public class DruidDataSourceConfig {
 
     @Autowired

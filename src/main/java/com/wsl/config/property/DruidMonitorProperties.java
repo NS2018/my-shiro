@@ -2,6 +2,7 @@ package com.wsl.config.property;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * @date 2020/9/25 9:45
  */
 @Data
+@Configuration
 @ConfigurationProperties(prefix = "wsl.druid")
 public class DruidMonitorProperties {
 
